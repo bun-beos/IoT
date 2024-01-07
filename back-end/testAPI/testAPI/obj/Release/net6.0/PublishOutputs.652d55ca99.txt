@@ -1,0 +1,15 @@
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\testAPI.exe
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\testAPI.dll
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\testAPI.deps.json
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\testAPI.runtimeconfig.json
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\testAPI.pdb
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\Dapper.dll
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\MySqlConnector.dll
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WorkSpace\ESP32-CAM\back-end\testAPI\testAPI\obj\Release\net6.0\PubTmp\Out\System.Diagnostics.DiagnosticSource.dll
