@@ -1,0 +1,54 @@
+@import url(./tailwind.css);
+@import url(./icon.css);
+@import url(./colors.css);
+@import url(./font.css);
+.w-list__item-label--hoverable:before {
+  background-color: var(--item-bg-color) !important;
+}
+
+/* .droplist__item:hover {
+  background-color: var(--button-bg-hover-color);
+} */
+.w-table__header:first-child {
+  padding: 0 !important;
+}
+.w-table__header {
+  padding: 0 !important;
+  height: 36px;
+  background-color: #e0e0e0;
+}
+
+/* Chỉnh màu dòng trong bảng */
+.w-table tbody tr:nth-child(odd):not(.no-data):not([class*="--bg"]) {
+  background-color: #f3f3f3 !important;
+}
+.w-table tbody tr:nth-child(even):not(.no-data):not([class*="--bg"]) {
+  background-color: #fff !important;
+}
+
+/* Chỉnh sửa w-list */
+.w-list {
+  padding: 2px 0 !important;
+}
+.w-list__item-label--hoverable,
+.w-list__item-label--selectable {
+  padding: 2px 4px !important;
+}
+
+.w-list__item-label--hoverable:before,
+.w-list__item-label--selectable:before {
+  background-color: #fff !important;
+}
+
+/* Chỉnh màu ô header khi bị sticky ko chuyển sang màu trắng */
+
+.w-table__header--sticky:before {
+  background-color: #e0e0e0 !important;
+}
+
+/* Sticky cho cột chức năng là cột cuối cùng của bảng */
+
+td:last-child,
+th:last-child {
+  right: 0px;
+}

@@ -1,0 +1,109 @@
+header {
+  height: 48px;
+  width: 100%;
+  box-shadow: 0 1px 3px #ccc;
+  background-color: #fff;
+}
+
+.header__container {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.header__home--box {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.header__button--box {
+  width: 44px;
+}
+
+.amis__chamcong--text {
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 35px;
+}
+
+.header__navbar--box {
+  flex-grow: 2;
+  /* width: calc(100% - 240px); */
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__acc--box .icon__box {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.header__acc--box .icon__box:hover {
+  background-color: #e6e6e6;
+}
+
+.user__thumnail {
+}
+
+.user__thumnail img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  /* background-size: ; */
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+/* Navbar css */
+nav {
+  height: 48px;
+}
+
+.nav__item {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin: 0 24px 0 8px;
+}
+
+.nav__item a {
+  color: #000;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-bottom: 4px solid transparent;
+}
+
+.nav__item a:hover {
+  border-color: #2ca012;
+}
+
+.nav__drop-list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 150px;
+  background-color: #fff;
+  z-index: 2;
+  padding: 8px;
+  box-shadow: 0 2px 3px #ccc;
+  border-radius: 4px;
+}
+
+.relative:hover .nav__drop-list {
+  display: block;
+}
+
+.nav__drop-list .nav__drop-item {
+  border-bottom: none;
+  height: 36px;
+  padding: 8px;
+}
+
+.nav__drop-list .nav__drop-item:hover {
+  background-color: #ffe0cc;
+}

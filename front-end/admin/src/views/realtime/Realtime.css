@@ -1,0 +1,41 @@
+.realtime-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.realtime-content .realtime-data {
+    width: 55%;
+}
+
+.realtime-content .realtime-data img {
+    border-radius: 4px;
+}
+
+.realtime-data .data-mode {
+    margin-bottom: 16px;
+}
+
+.data-mode .realtime-video,
+.data-mode .realtime-image {
+    width: 50%;
+}
+
+.realtime-action {
+    width: 45%;
+    height: 200px;
+    margin-left: 52px;
+    margin-top: 52px;
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.realtime-action .door-status {
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.realtime-action .open-door {
+    margin-right: 60px;
+}

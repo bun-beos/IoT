@@ -1,0 +1,80 @@
+.dashboard-content {
+    width: 100%;
+    height: 100%;
+}
+
+.status .status-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.status .door-status,
+.status .device-status {
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px 28px;
+}
+
+.status .title {
+    font-size: 18px;
+    height: 40px;
+}
+
+.status .content {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.status .device-status .mdi-camera-wireless-outline {
+    font-size: 45px;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    background-color: #69beff;
+    border-radius: 50%;
+}
+
+.status .device-status .mdi-camera-wireless-outline.stopped {
+    background-color: #ffcc24;
+}
+
+.status .device-status .mdi-camera-wireless-outline::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status .door-status .mdi-door-closed-lock,
+.status .door-status .mdi-door-closed-cancel {
+    font-size: 45px;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    background-color: #ff6161;
+    border-radius: 50%;
+}
+
+.status .door-status .mdi-door-closed-lock::before,
+.status .door-status .mdi-door-closed-cancel::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status .door-status .mdi-door-open {
+    font-size: 45px;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    background-color: #61ff69;
+    border-radius: 50%;
+}
+
+.status .door-status .mdi-door-open::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
