@@ -130,8 +130,10 @@ export const useRealtimeStore = defineStore("realtimeStore", {
         const currentMonth = currentDate.getMonth();
         for (const item of this.historyDoorStatus) {
           const datetimeDoorOpen = new Date(item.DoorStatusTime);
+
           item.DoorStatusTime = this.formatDateTime(item.DoorStatusTime);
-          item.DoorStatusValue = item.DoorStatusValue == "1" ? "Mở" : "Đóng";
+          item.DoorStatusValue = item.DoorStatusValue == 1 ? "Mở" : "Đóng";
+          
           // console.log(currentMonth, datetimeDoorOpen.getMonth());
           if (currentMonth == datetimeDoorOpen.getMonth()) {
             this.arrayAcitityDoorTimes[
@@ -142,7 +144,7 @@ export const useRealtimeStore = defineStore("realtimeStore", {
             parseInt(datetimeDoorOpen.getHours() + 1)
           ]["OpenDoor"]++;
         }
-        // console.log(this.arrayOpenDoorTimes);
+        console.log(this.historyDoorStatus);
       } catch (error) {
         console.log(error);
       }

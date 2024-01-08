@@ -84,7 +84,7 @@
               </thead>
               <tbody>
                 <tr v-for="(item, index) in historyDoorStatus" :key="index">
-                  <td>{{ item.DoorStatusTime }}</td>
+                  <td v-if="item.DoorStatusTime.includes('T')">{{ realtimeStore.formatDateTime(item.ImageTime) }}</td>
                   <td>
                     {{ item.DoorStatusValue }}
                   </td>

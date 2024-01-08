@@ -98,7 +98,7 @@ function onSelectImage() {
 
 function onSelectVideo() {
   currentFormat.value = 0;
-  realtimeStore.realtimeData.ImageUrl = "http://192.168.0.113/Videos";
+  realtimeStore.realtimeData.ImageUrl = "http://192.168.164.29/Videos";
 }
 
 function onControlDoor(value) {
